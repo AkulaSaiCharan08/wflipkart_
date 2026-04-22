@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Navbar */
+.navbar {
+    background: #2874f0;
+    color: white;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search {
+    width: 40%;
+    padding: 5px;
+}
+
+.login {
+    padding: 5px 10px;
+}
+
+/* Banner */
+.banner {
+    background: orange;
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+}
+
+/* Products */
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+}
